@@ -1,0 +1,52 @@
+CREATE TABLE orders (
+    order_id      INT,
+    customer_name VARCHAR(50),
+    product        VARCHAR(50),
+    quantity       INT,
+    price          NUMERIC(8,2),
+    order_date     DATE
+);
+
+
+INSERT INTO orders VALUES
+(1, 'Amit',  'Laptop',  1, 55000, '2024-01-10'),
+(2, 'Riya',  'Mobile',  2, 22000, '2024-01-12'),
+(3, 'Rahul', 'Laptop',  1, 60000, '2024-01-15'),
+(4, 'Sneha', 'Tablet',  3, 15000, '2024-01-18'),
+(5, 'Ankit', 'Mobile',  1, 25000, '2024-01-20'),
+(6, 'Pooja', 'Laptop',  2, 58000, '2024-01-22'),
+(7, 'Karan', 'Tablet',  1, 18000, '2024-01-25');
+
+
+SELECT customer_name, product, price
+FROM orders
+WHERE price > 20000;
+
+SELECT customer_name, product, price
+FROM orders
+ORDER BY price DESC;
+
+
+SELECT product,
+       SUM(quantity * price) AS total_sales,
+       COUNT(*) AS total_orders
+FROM orders
+GROUP BY product;
+
+
+SELECT product,
+       SUM(quantity * price) AS total_sales
+FROM orders
+GROUP BY product
+HAVING SUM(quantity * price) > 50000
+ORDER BY total_sales DESC;
+
+SELECT product,
+       SUM(CASE 
+              WHEN price > 20000 
+              THEN quantity * price 
+              ELSE 0 
+           END) AS high_value_sales
+FROM orders
+GROUP BY product
+ORDER BY high_value_sales DESC;
