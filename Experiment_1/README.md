@@ -1,3 +1,18 @@
+# 👨‍🎓 Student Details
+Name:Riya Kashyap
+
+UID: 25MCA20033
+
+ Branch: MCA
+ 
+Semester: 2nd
+
+Section/Group: 1/A
+
+Subject: Technical Training
+
+Date of Performance: 7/01/2026
+
 # 🎯 Aim of the Project
 
 The aim of this project is to design and implement a relational database system using SQL by creating multiple tables with appropriate constraints, performing data manipulation operations, managing access control through roles, and modifying the database schema to ensure data integrity and security.
