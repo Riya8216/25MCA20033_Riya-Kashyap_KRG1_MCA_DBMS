@@ -123,5 +123,28 @@ SELECT * FROM employee;
 
 SELECT CURRENT_USER;
 
+# 📊 I/O Analysis (Input / Output Analysis)
+
+  <img width="650" height="230" alt="image" src="https://github.com/user-attachments/assets/76bda471-96c4-44fd-98da-2b58ee9904c0" />
+
+  <img width="700" height="141" alt="image" src="https://github.com/user-attachments/assets/e72a4476-9448-47df-8286-34c8602ea524" />
+
+  <img width="563" height="232" alt="image" src="https://github.com/user-attachments/assets/8645c52c-4203-46ff-82a2-bf3066a67cc6" />
+
+# 📚 Learning Outcome
+
+After completing this practical, I has gained:
+
+- Understanding of relational database design.
+
+- Knowledge of SQL constraints and table relationships.
+
+- Practical experience in data manipulation operations.
+
+- Hands-on exposure to role-based access control.
+
+- Ability to modify and manage database schema.  
+
+  
 
 
