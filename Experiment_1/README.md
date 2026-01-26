@@ -146,6 +146,12 @@ SELECT CURRENT_USER;
 
   <img width="563" height="232" alt="image" src="https://github.com/user-attachments/assets/8645c52c-4203-46ff-82a2-bf3066a67cc6" />
 
+  <img width="543" height="226" alt="image" src="https://github.com/user-attachments/assets/d0253369-7e30-4d50-b2d5-b28feb591071" />
+
+  <img width="691" height="171" alt="image" src="https://github.com/user-attachments/assets/6f575cc4-5da4-40c6-a900-f34f98794855" />
+
+
+
 # 📚 Learning Outcome
 
 After completing this practical, I has gained:
