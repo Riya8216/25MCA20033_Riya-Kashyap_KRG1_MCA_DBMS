@@ -1,3 +1,19 @@
+# 👨‍🎓 Student Details
+Name:Riya Kashyap
+
+UID: 25MCA20033
+
+ Branch: MCA
+ 
+Semester: 2nd
+
+Section/Group: 1/A
+
+Subject: Technical Training
+
+Date of Performance: 13/01/2026
+
+
 # 🎯 Aim of the Project
 
 The aim of this project is to create and manage an orders database using SQL and to perform various database operations such as inserting data, retrieving records, sorting results, grouping data, and applying aggregate and conditional functions to analyze sales information effectively.
