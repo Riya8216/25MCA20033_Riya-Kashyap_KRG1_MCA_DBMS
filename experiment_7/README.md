@@ -155,6 +155,9 @@ These joins help in efficient querying, minimizing redundancy, and extracting re
     
         CROSS JOIN courses c;
 <img width="427" height="518" alt="image" src="https://github.com/user-attachments/assets/7de0d051-e18e-47ec-b723-46c50d4d4fe1" />
+
+
+
 <img width="428" height="158" alt="image" src="https://github.com/user-attachments/assets/ba56f5e8-3b9f-4cba-a497-f39f8faa7097" />
         
 ## Step 7: FULL JOIN
